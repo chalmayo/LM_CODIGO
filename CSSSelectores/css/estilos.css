@@ -1,0 +1,101 @@
+a, p {
+    font-size: 28px;
+}
+
+div a {
+    color: cadetblue;
+}
+
+div#capa1 {
+    background: coral;
+}
+
+.letraGrande {
+    font-size: xx-large;
+}
+
+.nosubrayado {
+    text-decoration: none;
+}
+
+div#capa1 a.encima {
+    font-weight: bold;
+}
+
+.encima {
+    font-style: italic;
+}
+
+div#capa1 a.encima:hover {
+    font-size: xx-large;
+}
+
+p#miparrafo::first-line {
+    font-weight: bold;
+}
+
+p#miparrafo::first-letter {
+    font-size: 60px;
+    color: blue;
+    font-family: monospace;
+}
+
+div#capa1 * {
+    background: yellow;
+}
+
+div > a {
+    border: 3px solid red;
+}
+
+a [href^="http"] {
+    padding: 20px;
+}
+
+a[href$="es"] {
+    text-transform: uppercase ;
+}
+
+a[href*="triana"] {
+    background: violet;
+}
+
+div + p {
+    font-size: 80px;
+}
+
+ul#lista li:first-child {
+    background: yellowgreen;
+}
+
+ul#lista li:last-child {
+    background: springgreen;
+}
+
+#ultimo:hover {
+    font-size: xx-large;
+}
+
+#ultimo:link {
+    font-size: medium;
+}
+
+#ultimo:visited{
+    font-size: small;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+input:enabled {
+
+}
+
+input:disabled {
+
+}
+
+input:checked {
+    
+}
