@@ -69,6 +69,13 @@ article {
     padding: 20px;
 }
 
+footer li {
+    
+     display: inline-block;
+     list-style: none;
+     padding: 5px;
+    
+}
 aside footer {
     font-size: small;
 }
@@ -83,7 +90,7 @@ ul h5 {
 }
 
 ul h4 {
-    font: bold 10px verdana, sans-serif;
+    font: bold 14px verdana, sans-serif;
     text-align: left
 }
 
@@ -129,13 +136,42 @@ footer li {
     border: 1px solid rgba(0, 110, 255, 0.89);
 }
 
+article footer {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
 #capa3 {
-    border: 0.5px solid  rgb(255, 127, 80);
+    border: 0.5px solid   rgb(255, 127, 80); 
 }
 
 #capa4 {
-    border: 0.1px solid  rgb(255, 127, 80);
+    border: 0.5px solid   rgb(255, 127, 80); 
 }
 
+#capa10 {
+    border: 0.5px solid black;
+}
+
+#capa11 {
+    border: 1px solid black;
+}
+
+#capa12 {
+    border: 0.5px solid black;
+}
+
+#capa13 {
+    border: 1px solid black;
+}
+
+#capa14 {
+    border: 0.5px solid black;
+}
+
+#capa15 {
+    border: 1px solid black;
+}
 
 
