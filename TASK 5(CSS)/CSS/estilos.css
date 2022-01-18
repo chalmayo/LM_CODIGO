@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+    font: bold 16px verdana, sans-serif;
+}
+
+h4 {
+    font: bold 10px verdana, sans-serif;
+}
+
+h5 {
+    font: bold 18px verdana, sans-serif;
+}
+
+header, section, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+#container {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#head {
+    background: rgba(144, 238, 144, 0.877);
+    padding: 20px;
+}
+
+#menu {
+    background: rgba(0, 204, 255, 0.795);
+    padding: 5px 15px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+#main {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#column {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: rgba(77, 0, 128, 0.356);
+    
+}
+
+article {
+    background: rgba(255, 127, 80, 0.63);
+    padding: 20px;
+}
+
+footer li {
+    
+     display: inline-block;
+     list-style: none;
+     padding: 5px;
+    
+}
+aside footer {
+    font-size: small;
+}
+
+ul h1 {
+    font: bold 50px verdana, sans-serif;
+}
+
+ul h5 {
+    font: bold 10px verdana, sans-serif;
+    text-align: right 
+}
+
+ul h4 {
+    font: bold 14px verdana, sans-serif;
+    text-align: left
+}
+
+
+article span {
+    font:bold 9px verdana, sans-seriff;
+}
+
+#cabecera1 {
+    color: rgba(0, 81, 255, 0.63);
+}
+
+#start {
+    color: rgba(0, 81, 255, 0.63);
+}
+
+#columnas {
+    color: rgba(0, 81, 255, 0.63);
+}
+
+
+#title {
+    color: rgb(255, 0, 0);
+}
+
+#subtitle {
+    color: rgba(58, 128, 0, 0.719);
+}
+
+#text {
+    color:  rgb(255, 127, 80);
+}
+
+footer span {
+    color: rgba(102, 0, 128, 0.726);
+}
+
+footer li {
+    color: rgba(0, 81, 255, 0.63);
+}
+
+#capa2 {
+    border: 1px solid rgba(0, 110, 255, 0.89);
+}
+
+article footer {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+#capa3 {
+    border: 0.5px solid   rgb(255, 127, 80); 
+}
+
+#capa4 {
+    border: 0.5px solid   rgb(255, 127, 80); 
+}
+
+#capa10 {
+    border: 0.5px solid black;
+}
+
+#capa11 {
+    border: 1px solid black;
+}
+
+#capa12 {
+    border: 0.5px solid black;
+}
+
+#capa13 {
+    border: 1px solid black;
+}
+
+#capa14 {
+    border: 0.5px solid black;
+}
+
+#capa15 {
+    border: 1px solid black;
+}
+
+
