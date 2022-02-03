@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$font: Arial, sans-serif;\r\n$color: rgba(255, 0, 0, 0.863);\r\n$color_items: rgba(255, 255, 255, 0.705);\r\n$color_enlaces: rgba(0, 0, 0, 0.815);\r\n$background: #CCC;\r\n\r\nhtml{\r\n  background-color: $background;\r\n}\r\n\r\nbody{\r\n  font: 100% $font;\r\n  color: $color;\r\n}\r\n\r\nnav{\r\n  ul{\r\n    margin: 0;\r\n    padding: 0;\r\n    list-style: none;\r\n    color: $color_items;\r\n  }\r\n\r\n  li{\r\n    display: inline-block;\r\n  }\r\n\r\n  a{\r\n    display: block;\r\n    padding: 6px 12px;\r\n    text-decoration: none;\r\n    color: $color_enlaces;\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAMA,AAAA,IAAI,CAAA;EACF,gBAAgB,EAHL,IAAI;CAIhB;;;AAED,AAAA,IAAI,CAAA;EACF,IAAI,EAAE,IAAI,CAXL,KAAK,EAAE,UAAU;EAYtB,KAAK,EAXC,sBAAsB;CAY7B;;;AAED,AACE,GADC,CACD,EAAE,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,KAAK,EAlBK,0BAA0B;CAmBrC;;;AANH,AAQE,GARC,CAQD,EAAE,CAAA;EACA,OAAO,EAAE,YAAY;CACtB;;;AAVH,AAYE,GAZC,CAYD,CAAC,CAAA;EACC,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,QAAQ;EACjB,eAAe,EAAE,IAAI;EACrB,KAAK,EA5BO,oBAAoB;CA6BjC"
+}
