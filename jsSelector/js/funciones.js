@@ -12,7 +12,20 @@ function iniciar() {
         alert(radios[i].value);
     }*/
 
-    document.getElementsByTagName("p")[0].innerHTML = "PrimerP";
+    //document.getElementsByTagName("p")[0].innerHTML = "PrimerP";
+
+    //document.querySelector("#principal p:first-child").onclick = alerta;
+
+    var coleccion = document.querySelectorAll("#principal p");
+    var coleccion = document.getElementById("principal").querySelectorAll("p")
+    for (let i = 0; i < coleccion.length; i++) {
+        coleccion[i].innerHTML = "P " + (i);
+    }
+}
+             
+        
+function alerta() {
+   alert("ALERTA");
 }
 
 function mostrarMensaje() {
