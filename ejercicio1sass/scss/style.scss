@@ -1,0 +1,34 @@
+$font: Arial, sans-serif;
+$color: rgba(255, 0, 0, 0.863);
+$color_item1: rgba(255, 255, 255, 0.705);
+$color_items: rgba(0, 0, 0, 0.815);
+$background: #CCC;
+
+html{
+  background-color: $background;
+}
+
+body{
+  font: 100% $font;
+  color: $color;
+}
+
+nav{
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: $color_item1;
+  }
+
+  li{
+    display: inline-block;
+  }
+
+  a{
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: $color_items;
+  }
+}

@@ -1,0 +1,33 @@
+/* line 7, ../../../Documents/Repositorio/LM_CODIGO-1/ejercicio1sass/scss/style.scss */
+html {
+  background-color: #CCC;
+}
+
+/* line 11, ../../../Documents/Repositorio/LM_CODIGO-1/ejercicio1sass/scss/style.scss */
+body {
+  font: 100% Arial, sans-serif;
+  color: rgba(255, 0, 0, 0.863);
+}
+
+/* line 17, ../../../Documents/Repositorio/LM_CODIGO-1/ejercicio1sass/scss/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.705);
+}
+
+/* line 24, ../../../Documents/Repositorio/LM_CODIGO-1/ejercicio1sass/scss/style.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 28, ../../../Documents/Repositorio/LM_CODIGO-1/ejercicio1sass/scss/style.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+/*# sourceMappingURL=style.css.map */
