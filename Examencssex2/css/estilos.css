@@ -1,0 +1,56 @@
+div#capa1 {
+    background: coral;
+}
+
+div#capa1 h2.cursiva1 {
+    font-style: italic;
+}
+
+div#capa1 span.cursiva2 {
+    font-style: italic;
+}
+
+div#datos {
+    background: grey;
+}
+
+div#datos p.negro1 {
+    color: black;
+}
+
+div#capa2 {
+    background: greenyellow;
+}
+
+div#capa2 span {
+    font-weight: bold;
+}
+
+div#capa2 span.segundo:hover {
+        color: red; 
+}
+
+span#segundo::first-letter { 
+    font-size: 80px;
+}
+
+#ultimo {
+    color: blue;
+}
+
+#ultimo2 {
+    color: red;
+}
+
+#ultimo:hover {
+    font-size: xx-large;
+}
+
+#ultimo2:hover {
+    font-size: xx-large;
+}
+
+#ultimo {
+    background: grey;
+}
+
