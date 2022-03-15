@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CALCULADORA</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+
+<body>
+
+        <tr>
+            <td>
+                <label for="num1">Nº1</label>
+            </td>
+            <td>
+                <input type="number" name="num1" id="num1" autofocus>
+            </td>
+        </tr>
+
+        <br/>
+
+        <tr>
+            <td>
+                <label for="num2">Nº2</label>
+            </td>
+            <td>
+                <input type="number" name="num2" id="num2" autofocus>
+            </td>
+        </tr>
+
+        <br/> <br/>
+
+        <tr>
+            <td colspan="2">
+                <input type="button" value="+" onclick="suma()">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="button" value="-" onclick="resta()">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="button" value="*" onclick="multiplicacion()">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="button" value="/" onclick="division()">
+            </td>
+        </tr>
+
+        <br/> <br/>
+
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Resultado" onclick="comprobar()">
+    
+            </td>
+        </tr>
+    
+    <div>
+    <span id="res"></span>
+    </div>
+    
+
+</body>
+
+</html>
