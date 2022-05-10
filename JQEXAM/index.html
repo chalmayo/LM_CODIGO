@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Exam</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+         $("div.clase").mouseover(function () {
+              $(this).addClass("colorfondo");
+                ($(this).hasClass("clase"))
+            });
+
+            $("div.clase").mouseout(function () {
+              $(this).removeClass("colorfondo");
+                ($(this).hasClass("clase")) 
+            });
+            
+         $(".tabla td").mousedown(function () {
+             $(this).addClass("estilo");
+             });
+
+         $(".tabla td").mouseup(function () {
+             $(this).removeClass("estilo");
+             });
+
+         $("#unBoton").click(function(){
+             $.each($("p"),function(){
+             if((this.textContent.length)<100){
+             $(this).addClass("fondo");
+             };
+             });
+
+         $("#Boton2").click(function(){
+             $.each($("p"),function(){
+             if((this.textContent.length)<100){
+                 $(this).removeClass("fondo");
+             };
+              });
+            }); 
+           });
+    
+        });
+        
+    </script>
+        
+    <style type="text/css">
+       .estilo {
+            background-color: green;
+        }
+
+        .colorfondo {
+            background-color: blue;
+        }
+
+        .fondo {
+            background-color: yellow;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="clase">Capa</div>
+    
+    </br> </br> </br> 
+
+    <table class="tabla">
+        <tr>
+          <td style="border: 1px solid black;">Carlos</td>
+          <td style="border: 1px solid black;">Mayo</td>
+        </tr>
+      </table>
+
+    </br> </br> </br>
+
+      <div id="parrafos">
+        <p>primero primero primero primero primero
+            primero primero primero primero primero
+            primero primero primero primero primero
+            primero primero primero primero primero
+        </p>
+
+        <p>segundo segundo segundo segundo segundo</p>
+
+        <p>tercero tercero tercero tercero tercero
+            tercero tercero tercero tercero tercero
+            tercero tercero tercero tercero tercero
+            tercero tercero tercero tercero tercero 
+        </p>
+
+        <p>cuarto cuarto cuarto cuarto cuarto</p>
+
+        <input type="button" id="unBoton" value="Poner"> 
+        <input type="button" id="Boton2" value="Quitar">
+
+      </div>
+
+</body>
+
+</html>
